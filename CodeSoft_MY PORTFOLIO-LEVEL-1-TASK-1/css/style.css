@@ -1,0 +1,70 @@
+body { padding-top:70px; }
+
+.hero {
+  background: linear-gradient(135deg,#242a33,#895ad4);
+  color:#e4eb55;
+  padding:80px 20px;
+}
+
+.profile-img {
+  width:150px;
+  height:150px;
+  border-radius:50%;
+  border:4px solid #fff;
+  cursor:pointer;
+}
+
+.about-photo {
+  width:160px;
+  height:160px;
+  border-radius:50%;
+  object-fit:cover;
+  border:3px solid #2a68e2;
+  cursor:pointer;
+}
+
+.section { padding:70px 0; }
+
+/* Projects */
+.project-card {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+.preview-modal {
+  display:none;
+  position:fixed;
+  inset:0;
+  background:rgba(181, 135, 135, 0.85);
+  z-index:9999;
+}
+
+.preview-modal iframe {
+  width:80%;
+  height:90%;
+  margin:5% auto;
+  display:block;
+  background:#fff;
+}
+
+.preview-image {
+  width:300px;
+  margin:10% auto;
+  display:block;
+  border-radius:10px;
+}
+
+.dark-mode {
+  background:#121212;
+  color:#eee;
+}
+
+.dark-mode .card {
+  background:#1e1e1e;
+  color:#eee;
+}
